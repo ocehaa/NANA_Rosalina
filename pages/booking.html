@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../frontend/libraries/bootstraps/css/bootstrap-grid.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="../frontend/style/booking.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700;800&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Potta+One&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Spicy+Rice&family=Spinnaker&family=Sriracha&display=swap" rel="stylesheet">
+
+    <title>NANA</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg mx-auto">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="detail.html"><img src="../frontend/img/header menu gleft.png"></a>
+                    </li>
+                    <li class="nav-item">
+                        <h5 class="navbar-brand">NANA</h5>
+                    </li>
+                    <li class="nav-item">
+                        <a href=""><img src="../frontend/img/basketcount.png"></a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a href=""><img src="../frontend/img/akun.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- tutup navbar -->
+    <!-- tittle -->
+    <div class="tittle mx-auto">Order/Payment</div>
+    <div class="bu mx-auto"></div>
+    <!-- tutup tittle -->
+    
+    <!-- ship-info -->
+    <section class="ship-info mx-auto">
+        <h5>Shipping Information</h5>
+        <div class="form-check">
+            <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="" id="" value="checkedValue" checked>
+            EMS
+          </label>
+        </div>
+        <p class="ship-fee">Shipping fee : Rp. 12.000,00 <br>
+            <span>Estimated Shipping Time : 7 - 10 Days</span></p>
+    </section>
+    <!-- tutup ship-info -->
+
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- Shipping Address -->
+    <form class="ship-address mx-auto">
+      <div class="form-inline">
+        <label for="name" class="form-label-head">Name*</label>
+        <input type="text" name="name" id="name" class="form-text-name form-control" placeholder="First name">
+        <input type="text" name="name"  id="name" class="form-text-name form-control ml-3" placeholder="Last name">
+      </div>
+      <div class="form-group form-inline mt-4">
+        <label for="region">Address*</label>
+        <select name="region" id="region" class="custom-select region">
+          <option selected>Indonesia</option>
+          <option value="1">Malaysia</option>
+          <option value="2">China</option>
+          <option value="3">Korea</option>
+        </select>
+      </div>
+      <input type="text" class="form-text-address form-control" placeholder="Address Line 1">
+      <input type="text" class="form-text-address form-control mt-3" placeholder="Address Line 2 (Optional)">
+      <input type="text" class="form-text-address form-control mt-3" placeholder="City">
+      <select name="province" id="province" class="custom-select province mt-3">
+        <option selected disabled>State/Province</option>
+        <option value="1">Riau</option>
+        <option value="2">Sumatera Barat</option>
+        <option value="3">Jawa Barat</option>
+      </select>
+      <div class="form-inline mt-3">
+        <input type="text" name="postal" id="postal" class="form-text-postal form-control" placeholder="Zip/Postal Code">
+        <input type="checkbox" name="nozip" id="nozip"  aria-label="Checkbox for label nozip" class="ml-5 nozip">
+        <label for="nozip" class="label-nozip ml-3">No zip code</label>
+      </div>
+      <p class="note mt-2">*Please enter your name and address in English</p>
+      <div class="form-inline">
+        <label for="phone" class="form-label-head">Phone</label>
+        <select name="phone" id="phone" class="custom-select phone mr-1">
+          <option selected>Indonesia(+62)</option>
+          <option value="1">Malaysia(+60)</option>
+          <option value="2">Singapura(+65)</option>
+          <option value="3">Filipina(+63)</option>
+        </select>
+        -
+        <input type="text" name="phone" class="form-text-phone ml-1">
+      </div>
+      <p class="note-phone mt-2">Please enter number only</p>
+      <div class="form-inline">
+        <label for="phone" class="form-label-head">Mobile*</label>
+        <select name="phone" id="phone" class="custom-select phone mr-1">
+          <option selected>Indonesia(+62)</option>
+          <option value="1">Malaysia(+60)</option>
+          <option value="2">Singapura(+65)</option>
+          <option value="3">Filipina(+63)</option>
+        </select>
+        -
+        <input type="text" name="phone" class="form-text-phone ml-1">
+      </div>
+      <p class="note-phone mt-2">Please enter number only</p>
+      <div class="form-inline mail">
+        <label for="phone" class="form-label-head">Email*</label>
+        <input type="text" class="form-text-email form-control mr-1">
+        @
+        <input type="text" name="phone" class="form-text-email form-control ml-1">
+      </div>
+      <div class="form-inline mt-3 enter-by">
+        <input type="checkbox" name="byent" id="byent"  aria-label="Checkbox for label-byent" class="ml-5 byent">
+        <label for="byent" class="label-byent ml-3">Place your order and join the membership at the same time by entering email and password</label>
+      </div>
+      <p class="note-info mt-3">You can become a member simply by providing your email, ID, and password. <br>
+        Once you become, you can receive various shopping benefits such as coupons and events.
+      </p>
+    </form>
+    <!-- tutup Shipping Address -->
+
+    <!-- GuestCheck -->
+    <section class="guest-check mx-auto">
+      <h5>Guest checkout password</h5>
+      <div class="form-inline guest-jrk mt-4">
+        <label for="pass-order" class="form-label-guest">Password for Order </label>
+        <input type="text" class="form-text-passguest form-control" name="password-guest">
+      </div>
+      <p class="guest-note mt-2">
+        The password will be used to look up your order history. Your password must be between 4 and 12 characters in <br>length and contain alpha betic characters and numbers. (case sensitive)
+      </p>
+      <div class="form-inline guest-jrk mt-2">
+        <label for="pass-order" class="form-label-guest">Password Verification</label>
+        <input type="text" class="form-text-passguest form-control" name="password-guest">
+      </div>
+    </section>
+    <!-- tutup GuestCheck -->
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- DetailOrder -->
+    <section class="order-detail mx-auto">
+      <h5>Order Detail</h5>
+      <div class="form-inline mt-4">
+        <img src="../frontend/img/order-thumb.png">
+        <div class="dtil-name ml-3">
+          <h5>Spark-Tacular Party Blush</h5>
+          <p>[color: RUBY RED IS CORAL SHIMMER + WARM RED SHIMMER] <br>
+            Qty: 1 item(s) <br>
+            Product subtotal: Rp. 75.000,00
+          </p>
+        </div>
+        <div class="hapus">
+          <button class="btn btn-delete">x</button>
+        </div>
+      </div>
+    </section>
+    <!-- tutup DetailOrder -->
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- Order Total -->
+    <section class="OrderTotal mx-auto">
+      <h5>Order Total</h5>
+      <div class="form-inline mt-3">
+        <p class="total-nm">
+          Make Up <br>
+          Shipping <br>
+          Discounts/Rewards
+        </p>
+        <p class="fee">
+          Rp 75.000,00 <br>
+          + Rp 25.000,00 <br>
+          <span>Rp. 0</span>
+        </p>
+      </div>
+    </section>
+    <!-- tutup Order Total -->
+
+    <!-- TotalOrder -->
+    <section class="tot-der mx-auto form-inline">
+      <h5>Order Total</h5>
+      <h5 class="total">Rp 100.000,00</h5>
+    </section>
+    <!-- tutup TotalOrder -->
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- Paymentmethod -->
+    <section class="methodpay mx-auto">
+      <h5>Methods of Payment</h5>
+      <p>Other Payment Methods</p>
+      <div class="form-inline pay">
+        <button type="button" class="btn btn-pay"><img src="../frontend/img/VISA.png"></button>
+        <button type="button" class="btn btn-pay"><img src="../frontend/img/MasterCard.png"></button>
+        <button type="button" class="btn btn-pay"><img src="../frontend/img/Other.png"></button>
+      </div>
+    </section>
+    <!-- tutup Paymentmethod -->
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- terms -->
+    <section class="terms mx-auto">
+      <div class="form-inline">
+        <input type="checkbox" name="accept-terms" id="accept-terms"  aria-label="Checkbox for label-accept-terms" class="accept-terms check-terms">
+        <label for="accept-terms" class="label-accept-terms ml-3">I accept all terms</label>
+      </div>
+      <hr class="line mt-3 mb-3">
+      <div class="form-inline">
+        <input type="checkbox" name="info-terms" id="info-terms"  aria-label="Checkbox for label-info-terms" class="info-terms check-terms">
+        <label for="info-terms" class="label-info-terms ml-3">[<span>Required</span>] Terms and Conditions</label>
+      </div>
+      <hr class="line mt-3 mb-3">
+      <div class="form-inline">
+        <input type="checkbox" name="info-terms" id="info-terms"  aria-label="Checkbox for label-info-terms" class="info-terms check-terms">
+        <label for="info-terms" class="label-info-terms ml-3">[<span>Required</span>] Privacy Policy</label>
+      </div>
+    </section>
+    <!-- tutup terms -->
+    <div class="rec-dow mx-auto"></div>
+
+    <!-- btn-order -->
+    <center class="buton-order">
+      <a href="paypal.html" role="button">
+        <button class="btn btn-primary">Rp. 100.000,00 PLACE ORDER</button>
+      </a>
+    </center>
+    <!-- tutup btn-order -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="../frontend/libraries/bootstraps/js/bootstrap.js"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,278 @@
+.headconfirm{
+    width: 1000px;
+    height: 80px;
+    opacity: 0.8100000023841858;
+    background: #666;
+    border: 1px solid #000;
+    padding-top: 20px;
+}
+.headconfirm h5{
+    color: #FFF;
+    font-size: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+}
+.note{
+    width: 1000px;
+    height: 50px;
+    background: #D7D7D7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.note p{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+/* ShippingAddress */
+
+.shipaddress{
+    padding-bottom: 25px;
+    width: 1000px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding-top: 25px;
+}
+.shipaddress h5{
+    padding-left: 25px;
+    color: #333;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.tupship{
+    margin-top: 25px;
+    width: 1000px;
+    height: 1px;
+    background: #666;
+}
+.address{
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.hd{
+    width: 70px;
+    color: #999;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+.hd-si{
+    margin-left: 100px;
+    color: #333;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+.grs{
+    margin: 0;
+    width: 950px;
+    height: 1px;
+    background: #666;
+    margin-left: 25px;
+}
+/* tutup ShippingAddress */
+
+.rec-dow{
+    width: 1000px;
+    height: 30px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+/* detailorder */
+
+.order-detail{
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+}
+.order-detail h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.dtil-name{
+    height: 100px;
+}
+.dtil-name h5{
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.dtil-name p{
+    margin-top: 10px !important;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+/* tutup detailorder */
+
+/* paymethod */
+.paymethod{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.paymethod h5{
+    padding-left: 25px;
+    color: #333;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.method{
+    padding-left: 25px;
+    color: #999;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.pal{
+    margin-left: 60px;
+    color: #000000;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* tutup paymethod */
+
+/* Order Total */
+.OrderTotal{
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+}
+.OrderTotal h5{
+    padding-left: 25px;
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.total-nm{
+    padding-left: 25px;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.fee{
+    margin-left: 665px;
+    color: #000;
+    text-align: right;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+/* tutup Order Total */
+
+
+/* TotalOrder */
+.tot-der{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #F4F7FF;
+}
+.tot-der h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.total{
+    margin-left: 718px;
+    color: #3971FF !important;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+/* tutup TotalOrder */
+
+/* additional */
+.addtitional{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.addtitional h5{
+    padding-left: 25px;
+    color: #333;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.cpf{
+    padding-left: 25px;
+    color: #999;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+/* tutup additional */
+
+/* button */
+.btn-home{
+    width: 1000px;
+    height: 55px;
+    background: #333;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+.btn-home:hover{
+    font-weight: 600;
+    color: #FFF;
+}
+/* tutup button */

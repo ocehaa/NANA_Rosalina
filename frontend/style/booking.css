@@ -1,0 +1,511 @@
+/* navbar */
+.navbar{
+    width: 1000px;
+    height: 60px;
+    border: 1px solid #666;
+    background: #FFF;
+}
+.navbar-brand{
+    margin: 0;
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 448px;
+    margin-right: 403px;
+}
+.nav-item{
+    height: 25px;
+}
+/* tutup navbar */
+/* tittle */
+.tittle{
+    width: 1000px;
+    height: 50px;
+    background: #666;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.bu{
+    width: 1000px;
+    height: 50px;
+    background: #D9D9D9;
+}
+/* tutup tittle */
+
+/* ship-info */
+.ship-info{
+    width: 1000px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ship-info h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+.ship-fee{
+    color: #3971FF;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.ship-fee span{
+    color: #000;
+}
+/* tutup ship-info */
+.rec-dow{
+    width: 1000px;
+    height: 30px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+
+/* ship-address */
+.ship-address{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form-label-head{
+    width: 70px;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-name{
+    width: 430px !important;
+    height: 50px;
+    border: 1px solid #666;
+    background: #FFF;
+    padding-left: 10px;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-name::placeholder{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.region{
+    margin-left: 3px;
+    width: 876px !important;
+    height: 50px;
+    border: 1px solid #666;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-address{
+    margin-left: 70px;
+    width: 876px;
+    height: 50px;
+    border: 1px solid #666;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-address::placeholder{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.province{
+    margin-left: 70px;
+    width: 876px !important;
+    height: 50px;
+    border: 1px solid #666;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-postal{
+    margin-left: 70px;
+    width: 300px !important;
+    height: 50px;
+    border: 1px solid #666;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-postal::placeholder{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.nozip{
+    width: 25px !important;
+    height: 25px !important;
+}
+.label-nozip{
+    color: #666;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+.note{
+    margin-left: 70px;
+    color: #F00;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+.phone{
+    width: 430px !important;
+    height: 50px !important;
+    border: 1px solid #666;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.form-text-phone{
+    width: 430px;
+    height: 50px;
+    border: 1px solid #666;
+    background: #FFF;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.note-phone{
+    margin-left: 70px;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.form-text-email{
+    width: 425px !important;
+    height: 50px !important;
+    border: 1px solid #666;
+    background: #FFF;
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.label-byent{
+    color: #383838;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.byent{
+    width: 25px !important;
+    height: 25px !important;
+}
+.enter-by{
+    margin-left: 22px;
+}
+.note-info{
+    margin-left: 10px;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+/* tutup ship-address */
+
+/* GuestCheck */
+.guest-check{
+    padding-top: 25px;
+    padding-left: 25px;
+    width: 1000px;
+    height: 259px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: #F6F6F6;
+}
+.guest-check h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-label-guest{
+    width: 90px;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.form-text-passguest{
+    width: 831px !important;
+    height: 50px !important;
+    background: #F6F6F6;
+    border: 1px solid #666;
+}
+.guest-note{
+    margin-left: 90px;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* tutup GuestCheck */
+
+/* detailorder */
+
+.order-detail{
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+}
+.order-detail h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.dtil-name{
+    height: 100px;
+}
+.dtil-name h5{
+    margin-top: 10px;
+    color: #000;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.dtil-name p{
+    margin-top: 10px !important;
+    color: #666;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.hapus{
+    height: 100px;
+    margin-left: 390px;
+}
+.btn-delete{
+    padding: 0;
+    margin: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #B5B5B5;
+    color: #B5B5B5;
+    text-align: center;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+
+}
+/* tutup detailorder */
+
+/* Order Total */
+.OrderTotal{
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #FFF;
+}
+.OrderTotal h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.total-nm{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.fee{
+    margin-left: 665px;
+    color: #000;
+    text-align: right;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.fee span{
+    color: #DC2C2C;
+}
+/* tutup Order Total */
+
+/* TotalOrder */
+.tot-der{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    background: #F4F7FF;
+}
+.tot-der h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.total{
+    margin-left: 718px;
+    color: #3971FF !important;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+/* tutup TotalOrder */
+
+/* Paymentmethod */
+.methodpay{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+.methodpay h5{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.methodpay p{
+    color: #000;
+    font-size: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.pay{
+    width: 950px;
+    padding-left: 15px;
+    border: 1px solid #666;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* tutup Paymentmethod */
+
+/* terms */
+.terms{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+.check-terms{
+    width: 25px;
+    height: 25px;
+}
+.label-accept-terms{
+    color: #000;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.line{
+    margin: 0;
+    width: 950px;
+    height: 1px;
+    background: #666;
+}
+.label-info-terms{
+    color: #666;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+.label-info-terms span{
+    color: #3971FF;
+}
+/* tutup terms */
+
+.btn-primary{
+    width: 1000px;
+    height: 75px;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}

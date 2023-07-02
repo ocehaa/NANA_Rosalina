@@ -1,0 +1,196 @@
+/* navbar */
+.navbar{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.navbar-brand{
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 800;
+}
+.nav-link{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+/* tutup navbar */
+
+.section-img{
+    margin-top: 100px;
+}
+.btn-view{
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background: #225;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.btn-view:hover{
+    width: 180px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+}
+
+/* hot */
+.hot{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+.pro-hot{
+    margin-top: 80px;
+}
+.label-new{
+    padding-left: 8px;
+    margin-top: 10px;
+    width: 150px;
+    height: 25px;
+    background: #000;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.produk-name{
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-decoration: none;
+}
+.produk-name:hover{
+    color: #000;
+}
+.hot1{
+    margin-left: 90px;
+}
+/* tutup hot */
+
+/* make up */
+.makeup{
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.hed{
+    color: #000;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.jarak{
+    margin-left: 35px;
+}
+.make{
+    transition: all 0.3s ease;
+}
+.make:hover{
+    transform: scale(1.1);
+}
+.jaraks{
+    margin-left: 35px;
+}
+.skincare{
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.bodycare{
+    margin-top: 60px;
+    margin-left: 159px;
+    margin-right: 159px;
+}
+.jarakss{
+    margin-left: 49px;
+}
+/* tutup make up */
+
+/* testvideo */
+.testvid{
+    margin-top: 160px;
+    margin-left: 120px;
+}
+.Nan{
+    color: #000;
+    font-size: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+.Natest{
+    margin-left: 80px;
+    margin-top: 305px;
+}
+.Nan span{
+    font-weight: 400;
+}
+.find{
+    margin-top: -10px;
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.grs{
+    width: 475.007px;
+    height: 1px;
+    background: #FF2500;
+}
+/* tutup testvideo */
+
+/* footer */
+footer{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 80px;
+    border-top: 1px solid #000;
+    background: #FFF;
+}
+.foot-item{
+    color: #000;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.foot-item a{
+    color: #F85022;
+    margin-top: -10px !important;
+    font-size: 14px;
+}
+.serv{
+    height: 201px;
+}
+.roaster{
+    color: #353535;
+    font-size: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+.foot-link{
+    color: #353535;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+.jrak{
+    height: 201px;
+    margin-left: 90px;
+}
+/* tutup footer */
